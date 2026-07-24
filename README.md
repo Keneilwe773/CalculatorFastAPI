@@ -23,4 +23,5 @@ A simple calculator built with FastAPI, Python, HTML, CSS, and JavaScript. This 
 | /multiply | Multiplies two numbers |
 | /divide | Divides two numbers with error handling. |
 
-# Author: Keneilwe Boipelo Raseale
+# Author: 
+Keneilwe Boipelo Raseale
