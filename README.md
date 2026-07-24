@@ -14,3 +14,12 @@ A simple calculator built with FastAPI, Python, HTML, CSS, and JavaScript. This 
 - HTML
 - CSS
 - JavaScript
+
+# API Endpoints
+| Name | Description |
+|------|-------------|
+| /add | Adds two numbers. |
+| /subtract | Subtracts one number from another. |
+| /multiply | Multiplies two numbers |
+| /divide | Divides two numbers with error handling. |
+
