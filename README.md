@@ -7,3 +7,10 @@ A simple calculator built with FastAPI, Python, HTML, CSS, and JavaScript. This 
 - Subtraction (-)
 - Multiplication (x)
 - Division (/)
+
+# Technologies Used:
+- Python
+- FastAPI
+- HTML
+- CSS
+- JavaScript
