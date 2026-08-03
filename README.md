@@ -23,5 +23,8 @@ A simple calculator built with FastAPI, Python, HTML, CSS, and JavaScript. This 
 | /multiply | Multiplies two numbers |
 | /divide | Divides two numbers with error handling. |
 
+## Live Demo:
+https://calculatorfastapi.onrender.com
+
 ## Author: 
 [Keneilwe Boipelo Raseale](www.linkedin.com/in/keneilwe-raseale-251935241)
