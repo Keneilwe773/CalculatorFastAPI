@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <form class="val1">
+            <label for="quantity1">Enter first number:</label><br>
+            <input type="number" id="quantity1" name="quantity1" required><br>
+        </form>
+        <form class="val2">
+            <label for="quantity2">Enter second number:</label><br>
+            <input type="number" id="quantity2" name="quantity2" required><br>
+        </form>
+        <div class="buttons">
+            <button type="button" class="addition">+</button>
+            <button type="button" class="subtraction">-</button>
+            <button type="button" class="multiplication">x</button>
+            <button type="button" class="division">/</button>
+        </div>
+        <h2 id="result">Answer: </h2>
+        <p class="source-code"> source-code: 
+            <a href="https://github.com/keneilweraseale/CalculatorFastAPI" target="_blank">
+                <span class="name">Keneilwe Boipelo Raseale</span>
+            </a>
+        </p>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
