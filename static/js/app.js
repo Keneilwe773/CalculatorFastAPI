@@ -3,10 +3,23 @@ const num2Input = document.getElementById("quantity2");
 const result = document.getElementById("result");
 
 function calculate(operation) {
-    const num1 = num1Input.value;
-    const num2 = num2Input.value;
+    const num1 = num1Input.value.trim();
+    const num2 = num2Input.value.trim();
 
-    fetch(`/${operation}?num1=${num1}&num2=${num2}`)
+    if (num1 === "" || num2 === "") {
+        result.innerHTML = "Error: Please enter both numbers.";
+        return;
+    }
+
+    const parsedNum1 = Number(num1);
+    const parsedNum2 = Number(num2);
+
+    if (Number.isNaN(parsedNum1) || Number.isNaN(parsedNum2)) {
+        result.innerHTML = "Error: Please enter valid numbers only.";
+        return;
+    }
+
+    fetch(`/${operation}?num1=${encodeURIComponent(parsedNum1)}&num2=${encodeURIComponent(parsedNum2)}`)
         .then((response) => response.json())
         .then((data) => {
             if (data.answer !== undefined) {
